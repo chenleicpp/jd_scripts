@@ -33,8 +33,8 @@ def main(cookie, validate):
     config = {}
     if 0 <= h < 8:
         config = tasks['data']['beanConfigs0']
-    #if 8 <= h < 16:
-        #config = tasks['data']['beanConfigs8']
+    if 8 <= h < 16:
+        config = tasks['data']['beanConfigs8']
     if 16 <= h < 24:
         config = tasks['data']['beanConfigs16']
 
